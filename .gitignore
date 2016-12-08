@@ -1,4 +1,18 @@
+# Gitignore file
+.DS_Store
+Thumbs.db
+profile
+
+# ignore packages
 node_modules
+bower_components
+
+# ignore generated files and folders
+*.log
+*.html
+*.css
+dist
+
 .npm-debug.log
 tmp
 .sass-cache

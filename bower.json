@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "description": "my first bower json",
+  "main": "index.js",
+  "authors": [
+    "Ethan Huang <ethanhuangstudio@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.3",
+    "susy": "^2.2.12"
+  }
+}

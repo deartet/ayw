@@ -1,12 +1,19 @@
 @import "testing";
-
+@import "sprites";
+@import "susy/sass/_susy.scss";
 .testing {
-    width: percentage(6/7);
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
+  width: percentage(6/7);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
 }
 .haha {
-    background-color: wheat;
-    display: flex;
+  background-color: wheat;
+  display: flex;
+}
+.github {
+  @include retina-sprite($github-group);
+}
+.susy-test {
+  @include span(2);
 }
