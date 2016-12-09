@@ -18,7 +18,3 @@
 </div>
 
 {% endblock %}
-
-
-{# blah is an invalide tag, and it should fail #}
-{% blah %}
