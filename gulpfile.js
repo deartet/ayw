@@ -23,7 +23,7 @@ function customPlumber(errTitle) {
     return plumber({
       errorHandler: function (err) {
         // change first line of error into red
-        throw Error(gutil.colors.red(err.message));
+        throw Error(err.message);
       }
     });
   } else {
