@@ -3,7 +3,6 @@ env: CI=true
 node_js:
   - "6.7.0"
 before_install:
-  - "gem update bundler"
   - "gem update --system"
   - "gem --version"
   - "rvm reinstall ruby-head --binary"
@@ -17,5 +16,5 @@ before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
 script:
-- "gulp"
+- "gulp dev-ci"
 - "gulp test"
